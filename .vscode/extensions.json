@@ -1,0 +1,26 @@
+{
+   "recommendations": [
+     "formulahendry.auto-rename-tag",
+     "coenraads.bracket-pair-colorizer-2",
+     "mikestead.dotenv",
+     "kaiwood.endwise",
+     "dbaeumer.vscode-eslint",
+     "ninoseki.vscode-gem-lens",
+     "eamodio.gitlens",
+     "mohd-akram.vscode-html-format",
+     "kiteco.kite",
+     "ibm.output-colorizer",
+     "esbenp.prettier-vscode",
+     "aki77.rails-db-schema",
+     "castwide.solargraph",
+     "connorshea.vscode-ruby-test-adapter",
+     "misogi.ruby-rubocop",
+     "tabnine.tabnine-vscode",
+     "bradlc.vscode-tailwindcss",
+     "hbenl.vscode-test-explorer",
+     "wingrunr21.vscode-ruby",
+     "bung87.rails",
+     "sorbet.sorbet-vscode-extension",
+     "yzhang.markdown-all-in-one"
+   ]
+ }
