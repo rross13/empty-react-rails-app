@@ -1,4 +1,4 @@
-import { React, ReactElement } from 'react';
+import React, { ReactElement } from 'react';
 
 interface HelloMessageProps {
    name: string;
@@ -7,9 +7,12 @@ interface HelloMessageProps {
 const HelloMessage = ({ name }: HelloMessageProps): ReactElement => {
    console.log('this is working');
    return (
-      <h1 className="text-red-700">
-         {`Hello ${name}`}
-      </h1>
+      <div>
+         <h1 className="text-red-700">
+            {`Hello ${name}`}
+         </h1>
+         <p>deez</p>
+      </div>
    )
 };
 
