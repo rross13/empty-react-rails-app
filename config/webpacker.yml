@@ -34,8 +34,8 @@ default: &default
 
   extensions:
     - .jsx
-    - .mjs
     - .js
+    - .mjs
     - .sass
     - .scss
     - .css
@@ -47,6 +47,8 @@ default: &default
     - .gif
     - .jpeg
     - .jpg
+    - .ts
+    - .tsx
 
 development:
   <<: *default

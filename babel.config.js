@@ -43,7 +43,8 @@ module.exports = function(api) {
           development: isDevelopmentEnv || isTestEnv,
           useBuiltIns: true
         }
-      ]
+      ],
+      ['@babel/preset-typescript', { 'allExtensions': true, 'isTSX': true }]
     ].filter(Boolean),
     plugins: [
       'babel-plugin-macros',
@@ -93,7 +94,15 @@ module.exports = function(api) {
         {
           removeImport: true
         }
-      ]
-    ].filter(Boolean)
+      ],
+      'react-hot-loader/babel',
+    ].filter(Boolean),
+    env: {
+      test: {
+        presets: [
+          ["env", { targets: { node: "current" } }]
+        ]
+      }
+    },
   }
 }
