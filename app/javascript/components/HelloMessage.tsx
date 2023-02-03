@@ -5,7 +5,6 @@ interface HelloMessageProps {
 }
 
 const HelloMessage = ({ name }: HelloMessageProps): ReactElement => {
-   console.log('this is working');
    return (
       <div>
          <h1 className="text-red-700">
