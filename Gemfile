@@ -56,24 +56,11 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
-gem 'browser'
 gem 'cuid'
-gem 'ed25519', '>= 1.2', '< 2.0'
-gem 'faker'
-gem 'net-ftp'
-gem 'net-sftp'
-gem 'net-ssh'
-gem 'newrelic_rpm'
 gem 'normalize-rails'
 gem 'rack-cors'
 gem 'react-rails'
 gem 'rest-client'
-gem 'sentry-rails'
-gem 'sentry-ruby'
-gem 'sneakers'
 gem 'sorbet-rails'
 gem 'sorbet-runtime'
-gem 'stringio'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'uglifier'
